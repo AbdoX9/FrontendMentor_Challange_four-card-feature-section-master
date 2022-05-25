@@ -49,6 +49,13 @@ body {
     height: 100%;
 }
 
+@media (max-width:767px) {
+    .main {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -113,6 +120,9 @@ h1:last-of-type {
 @media (max-width:767px) {
     .box {
         width: 250px;
+    }
+    .right {
+        margin-bottom: 0;
     }
 }
 
